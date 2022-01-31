@@ -1,0 +1,273 @@
+/* Fonte universal da página */
+html {
+  font-family: "Encode Sans", sans-serif;
+}
+
+img {
+  border-radius: 12px;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+/* ------------------------------------- */
+/* Topo da página com logo */
+.logo {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* ------------------------------------- */
+/* Barra com opções do começo da página*/
+.barra {
+  height: 40px;
+  border-top: thin solid #f5f6f7;
+  border-bottom: thin solid #f5f6f7;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.barra div:hover {
+  filter: opacity(0.5);
+}
+
+/* ------------------------------------- */
+/* Bloco de noticias da esquerda */
+.esquerda {
+  height: 845px;
+  border-right: thin solid #ebedef;
+  width: 666px;
+  margin-left: 151px;
+  margin-top: 34px;
+}
+
+.esquerda h4 {
+  width: 192px;
+  height: 19px;
+}
+
+.esquerda h3 {
+  width: 192px;
+  height: 84px;
+}
+
+.esquerda p {
+  width: 174px;
+  height: 42.5px;
+}
+
+/* ------------------------------------- */
+/* Bloco de noticias do meio */
+.meio {
+  height: 845px;
+  border-right: thin solid #ebedef;
+  width: 310px;
+  margin-top: 36px;
+}
+
+.noticias-meio div:hover {
+  filter: opacity(0.5);
+}
+
+.noticias-meio {
+  height: 920px;
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meio h3 {
+  width: 240px;
+  height: 84px;
+}
+
+.meio p {
+  width: 217px;
+  height: 43px;
+}
+
+/*Bloco de noticias da esquerda*/
+.direita {
+  width: 312px;
+  height: 845px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 36px;
+}
+
+.direita div:hover {
+  filter: opacity(0.5);
+}
+
+.verdades-secretas {
+  width: 240px;
+  height: 84px;
+}
+
+.direita h3 {
+  width: 240px;
+}
+
+.direita p {
+  margin-top: 9px;
+  width: 217px;
+  height: 21px;
+}
+
+/*------------------------------------*/
+/* Noticia maior */
+.noticia-principal {
+  margin-right: 39px;
+  border-bottom: thin solid #ebedef;
+}
+
+.noticia-principal div:hover {
+  filter: opacity(0.5);
+}
+
+/* Noticias secundarias esquerda */
+.noticias-secundarias {
+  height: 338px;
+  border-bottom: thin solid #ebedef;
+  width: 624px;
+  display: flex;
+  margin: 0px 0px 0px 3px;
+}
+
+.noticias-secundarias div {
+  margin: 0px 25px 0px 0px;
+}
+
+.noticias-secundarias div:hover {
+  filter: opacity(0.5);
+}
+
+/*Notícias terciárias*/
+.noticias-terciarias {
+  display: flex;
+}
+
+.noticias-terciarias div:hover {
+  filter: opacity(0.5);
+}
+
+.noticias-terciarias div {
+  margin: 14px 25px 0px 4px;
+}
+
+/* ------------------------------------- */
+/* Todas as colunas de noticias */
+.noticias {
+  display: flex;
+}
+
+/* ------------------------------------- */
+/* Tamanho das imagens grandes */
+.img-grande {
+  width: 240px;
+  height: 128px;
+}
+
+/*Tamanho das imagens pequenas*/
+.img-pequena {
+  width: 193px;
+  height: 110px;
+  margin-top: 25px;
+}
+
+/* ------------------------------------- */
+/* Cores */
+.superred {
+  color: #c3170c;
+  margin-left: 140px;
+}
+.littlered {
+  color: #c4170c;
+}
+.blue {
+  color: #1e4b9b;
+}
+.supergreen {
+  color: #006766;
+}
+.littlegreen {
+  color: #16ae54;
+}
+.green {
+  color: #07aa47;
+}
+.superorange {
+  color: #e3662b;
+}
+.littleorange {
+  color: #ec8006;
+}
+.red {
+  color: #fb0735;
+}
+.pink {
+  color: #ff75bb;
+}
+.orange {
+  color: #ec7d00;
+}
+.gray {
+  color: #323333;
+}
+.purple {
+  color: #a81d83;
+  margin-right: 140px;
+}
+
+/* ------------------------------------- */
+/* Notícias principais da página */
+/* Notícia principal */
+h1 {
+  color: #c4160c;
+  font-size: 52px;
+  font-weight: 700;
+  height: 201px;
+  width: 624px;
+  margin-top: 0px;
+}
+/* Notícias secundárias */
+h2 {
+  color: #303134;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 2px;
+  margin-top: 7px;
+  margin-bottom: 25px;
+}
+
+/*Titulo noticias com foto*/
+h3 {
+  font-size: 20px;
+  margin-top: 6px;
+  margin-bottom: 4px;
+  color: #2f3134;
+}
+
+/*Pequeno titulo noticias com foto*/
+h4 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 11px;
+}
+
+/* Subtitulo noticias com foto */
+p {
+  font-size: 14px;
+  margin-top: 0px;
+  color: #2f3134;
+}
